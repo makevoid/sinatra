@@ -1,3 +1,15 @@
+About this fork
+===============
+
+This is a ruby installation that has the default sinatra server code from the Simple Federated Wiki project, has the client (and the whole project) as a git submodule, and has a mina deploy config file for deploying on your own server.
+
+I use nginx and passenger because I have a dedicaded server with multiple apps but any other setup / application server that support rack like puma, unicorn, thin or passenger-standalone and any server setup (vps, docker container) should work and can be preferred.
+
+Deploy file: https://github.com/makevoid/wiki_sinatra/blob/master/config/deploy.rb#L3
+The only change to the sinatra server I did is to use the submdodule path: https://github.com/makevoid/wiki_sinatra/commit/bd201a319e36851fbc45ce91dce1cb06963ece25#diff-af4ebf18890510626fe0fab30efeab2cR9
+
+----
+
 Server Goals
 ============
 
