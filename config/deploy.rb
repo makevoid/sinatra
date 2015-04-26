@@ -46,6 +46,7 @@ end
 task :setup => :environment do
   queue! %[mkdir -p "#{deploy_to}/shared/log"]
   queue! %[chmod g+rx,u+rwx "#{deploy_to}/shared/log"]
+  queue! %[git submodule init && git submodule update"]
 end
 
 desc "Deploys the current version to the server."

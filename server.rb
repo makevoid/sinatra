@@ -6,7 +6,7 @@ Bundler.require
 
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 SINATRA_ROOT = File.expand_path(File.dirname(__FILE__))
-APP_ROOT = File.expand_path(File.join(SINATRA_ROOT, "..", ".."))
+APP_ROOT = File.expand_path(File.join(SINATRA_ROOT, "sfw"))
 
 Encoding.default_external = Encoding::UTF_8
 
