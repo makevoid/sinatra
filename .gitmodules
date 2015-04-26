@@ -1,0 +1,6 @@
+[submodule "smf"]
+	path = smf
+	url = https://github.com/WardCunningham/Smallest-Federated-Wiki
+[submodule "sfw"]
+	path = sfw
+	url = https://github.com/WardCunningham/Smallest-Federated-Wiki
